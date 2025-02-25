@@ -296,7 +296,7 @@ button {
   column-gap: 24px;
   row-gap: 48px;
 }
-.banking {
+:first-child .port-item {
   width: calc((100% - 48px) / 3);
 }
 .text-item-folio {
