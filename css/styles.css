@@ -312,11 +312,11 @@ button {
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  width: calc((100% - 48px) / 3);
 }
 
 .port-team-item {
   margin-bottom: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 .port-item-title {
