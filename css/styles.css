@@ -228,9 +228,10 @@ button {
   /*padding-bottom: 32px;*/
   border-radius: 0px 0px 4px 4px;
 }
-.our-team-item mark {
+:first-child .our-list {
   width: calc((100% - 72px) / 4);
 }
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -315,6 +316,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .port-text {
   font-weight: 400;
@@ -338,12 +340,12 @@ button {
 .logo-style-footer {
   color: #f4f4fd;
 }
-.logo footer {
+.footer-logo {
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-style-footer {
-  margin-bottom: 16px;
-  display: inline-block;
 }
 .footer-text {
   font-weight: 400;
