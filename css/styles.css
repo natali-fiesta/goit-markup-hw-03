@@ -25,6 +25,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -135,7 +139,7 @@ button {
 
 .hero-content {
   padding: 188px 0;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 .hero-title {
@@ -238,6 +242,7 @@ button {
 .our-list {
   display: flex;
   gap: 24px;
+  margin-bottom: 8px;
 }
 
 .our-item-title {
@@ -265,8 +270,7 @@ button {
 /* #region Portfolio */
 .portfolio {
   background-color: #ffffff;
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 
 .port-team-title {
@@ -282,6 +286,19 @@ button {
 }
 
 .port-item {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.banking {
+  width: calc((100% - 48px) / 3);
+}
+.text-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .port-team-item {
@@ -318,11 +335,11 @@ button {
   color: #f4f4fd;
 }
 .logo footer {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-style-footer {
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-text {
   font-weight: 400;
@@ -330,5 +347,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 /* #endregion Footer */
