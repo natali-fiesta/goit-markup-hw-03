@@ -131,11 +131,10 @@ button {
 /* #region hero*/
 .hero {
   background-color: #2e2f42;
-  margin-bottom: 120px;
 }
 
 .hero-content {
-  padding: 188px 316px 188px 316px;
+  padding: 188px 0;
   margin: 0 auto;
 }
 
@@ -161,10 +160,12 @@ button {
   padding-right: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
-  max-width: 169px;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
   margin: 0 auto;
   display: block;
+  border: none;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -176,7 +177,7 @@ button {
 /* #region Feature */
 .feature {
   background-color: #ffffff;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .feature-title {
 }
@@ -188,6 +189,7 @@ button {
   margin-bottom: 120px;
 }
 .feature-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .feature-item-text {
   font-weight: 400;
@@ -302,7 +304,8 @@ button {
 .logo-style-footer {
   color: #f4f4fd;
 }
-.logo {
+.logo footer {
+  display: inline-block;
 }
 
 .logo-style-footer {
